@@ -5,6 +5,7 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import Layout from "./Layout";
 import { Root } from "./roots/Root.jsx";
 import { About } from "./roots/About.jsx";
 import { Projects } from "./roots/Projects.jsx";
@@ -14,20 +15,20 @@ import { Contact } from "./roots/Contact.jsx";
 const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Root />,
-	},
-	{
+		element: <Layout><Root /></Layout>,
+	  },
+	  {
 		path: "/about",
-		element: <About />,
-	},
-	{
+		element: <Layout><About /></Layout>,
+	  },
+	  {
 		path: "/projects",
-		element: <Projects />,
-	},
-  {
+		element: <Layout><Projects /></Layout>,
+	  },
+	  {
 		path: "/contact",
-		element: <Contact />,
-	},
+		element: <Layout><Contact /></Layout>,
+	  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

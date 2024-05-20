@@ -5,11 +5,7 @@ export const Root = () => {
 	return (
 		<div>
 			<h1>Carson Colyer</h1>
-			<Link to={"/about"}>about</Link>
-			<br></br>
-			<Link to={"/projects"}>projects</Link>
-			<br></br>
-			<Link to={"/contact"}>contact</Link>
+			<p>My name is Carson. I am blah blah blah blah insert stuff about me.</p>
 		</div>
 	);
 };

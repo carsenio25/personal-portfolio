@@ -24,7 +24,6 @@ export const Contact = () => {
   
 	return (
 	  <div>
-		<Link to="/">Home</Link>
 		<h2>Contact</h2>
 		<form className="contact-form" onSubmit={handleSubmit}>
 		  <div className="form-group">
