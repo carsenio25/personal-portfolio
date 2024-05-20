@@ -23,6 +23,10 @@
   padding: 14px 20px;
 }
 
+.navbar-item .active {
+  background-color: #ffffff; /* Highlight the active link */
+}
+
 .navbar-item a {
   color: black;
   text-align: center;
