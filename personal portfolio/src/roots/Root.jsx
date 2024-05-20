@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export const Root = () => {
 	return (
 		<div>
-			<h1>Root Page</h1>
-			<Link to={"/projects"}>student</Link>
-			<br></br>
+			<h1>Carson Colyer</h1>
 			<Link to={"/about"}>about</Link>
+			<br></br>
+			<Link to={"/projects"}>projects</Link>
 			<br></br>
 			<Link to={"/contact"}>contact</Link>
 		</div>
